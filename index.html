@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1> Welcome to Laundry Wallah / Laundry MArt</h1>
+<p>welcome to our laundry service. We provide the best laundry services in town. Our team is dedicated to providing you with the highest quality of service and ensuring your clothes are cleaned to perfection.</p>
+<img src="D:\ai-generated-basket-with-colored-laundry-for-washing-in-laundry-room-photo.jpg" alt="Laundry Service" width="500" height="300"> 
+<h1>Our Services</h1>
+<ul>
+    <li>Washing and Drying</li>
+    <li>Ironing and Folding</li>
+    <li>Stain Removal</li>
+    <li>Pickup and Delivery</li>
+<h1>Price list </h1>
+<table border="2">
+    <tr>
+        <th>Service</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td>Washing and Drying</td>
+        <td>$10 per load</td>
+    </tr>
+    <tr>
+        <td>Ironing and Folding</td>
+        <td>$5 per item</td>
+    </tr>
+    <tr>
+        <td>Stain Removal</td>
+        <td>$15 per item</td>
+    </tr>
+    <tr>
+        <td>Pickup and Delivery</td>
+        <td>$5 per trip</td>
+    </tr>
+</table>
+<h1>BOOK NOW </h1>
+<form action="submit_booking.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="service">Select Service:</label>
+    <select id="service" name="service" required>
+        <option value="">--Please choose an option--</option>
+        <option value="washing_drying">Washing and Drying</option>
+        <option value="ironing_folding">Ironing and Folding</option>
+        <option value="stain_removal">Stain Removal</option>
+        <option value="pickup_delivery">Pickup and Delivery</option>
+    </select><br><br>
+    
+    <label for="date">Preferred Date:</label>
+    <input type="date" id="date" name="date" required><br><br>
+    
+    <input type="submit" value="Book Now">
+<footer>
+        <p>
+            Contact us at info@laundrywallah.com or call 1-800-123-4567
+        </p>
+</footer>
+</body>
+</html>
